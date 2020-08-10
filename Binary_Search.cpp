@@ -19,9 +19,9 @@ int Binary_Search(int arr[] , int x , int l , int r){
     }
 }
 int main(){
-    #test
-    int arr[] = {1 ,2 ,3 , 4 , 5};
-    int index = Binary_Search(arr , 1 , 0 , 4);
+    //test
+    int arr[] = {1 ,2 ,3 , 4 , 5 , 6 , 7 , 8 , 9 , 10};
+    int index = Binary_Search(arr , 1 , 0 , 9);
     cout << index << endl;
     
 
